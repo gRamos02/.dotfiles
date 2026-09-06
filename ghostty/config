@@ -1,0 +1,2 @@
+theme = gruvbox-material-hard-dark
+keybind = ctrl+v=paste_from_clipboard

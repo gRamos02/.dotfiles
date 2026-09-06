@@ -1,0 +1,15 @@
+# .bash_profile
+#
+#
+if [ -z "$DISPLAY" ] && [ "$(tty)" = "/dev/tty1" ]; then
+  exec dbus-run-session startplasma-wayland
+fi
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+#
+export GOPATH=$HOME/go
