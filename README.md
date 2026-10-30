@@ -9,7 +9,7 @@ Personal config files. Each directory mirrors the tool's config location:
 | `ghostty/`         | `~/.config/ghostty/`                     |
 | `git/`             | `~/.gitconfig`                           |
 | `i3/`              | `~/.i3/` (legacy, not on current machine)|
-| `nvim/`            | `~/.config/nvim/` (LazyVim)              |
+| `nvim/`            | `~/.config/nvim/` (custom lazy.nvim)     |
 | `starship/`        | `~/.config/starship.toml`                |
 | `sway/`            | `~/.config/sway/`                        |
 | `tmux/`            | `~/.tmux.conf`                           |
